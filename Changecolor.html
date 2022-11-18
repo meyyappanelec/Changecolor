@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        let ctr = 0;
+
+        function a() {
+            var btn = document.getElementById("b1"); 
+
+            if(ctr == 0)
+            {
+                btn.style.backgroundColor="Blue"
+                ctr = ctr + 1;
+            }
+            else{
+                btn.style.backgroundColor="Red"
+                ctr = ctr - 1;
+            }
+        }
+        
+    </script>
+
+<h1>Click on the button to change its colour</h1>
+
+<form>
+    <button type="button" id="b1" onclick="a()">Click Button to change color</button>
+</form>
+
+</body>
+</html>  
+    
+</form>
+
+</body>
+</html>
